@@ -443,6 +443,21 @@
   dependencies:
     tsm "^2.1.4"
 
+"@storyblok/astro@^2.5.11":
+  version "2.5.11"
+  resolved "https://registry.yarnpkg.com/@storyblok/astro/-/astro-2.5.11.tgz#4b57d6af7c00c610232e3973bcd38f469dadb03b"
+  integrity sha512-+8PYpDZ4Of2svUAteTcs8FV5tpLkUuSXjwOTyMR0nKi+oXJTELHIG+4nm0QVwm7iputdkpfa99f6krLmKVdbEA==
+  dependencies:
+    "@storyblok/js" "^2.2.11"
+    camelcase "^8.0.0"
+
+"@storyblok/js@^2.2.11":
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-2.2.11.tgz#d24843ed7fa84e6a859debd2f4c49078dbd910a5"
+  integrity sha512-mR4+aIaJkAvFurkMB8jX3nEotNG6ra5yHXGogQFUVJb9rCMAhthIsmh7dII0J8ix2hTRW8PMepNQJZl4FsSBrA==
+  dependencies:
+    storyblok-js-client "^5.14.2"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
@@ -586,6 +601,11 @@
   version "21.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
   integrity sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==
+
+"@vitejs/plugin-basic-ssl@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-basic-ssl/-/plugin-basic-ssl-1.0.1.tgz#48c46eab21e0730921986ce742563ae83fe7fe34"
+  integrity sha512-pcub+YbFtFhaGRTo1832FQHQSHvMrlb43974e2eS8EKleR3p1cDdkJFPci1UhwkEf1J9Bz+wKBSzqpKp7nNj2A==
 
 "@vscode/emmet-helper@^2.8.4":
   version "2.9.2"
@@ -842,6 +862,11 @@ camelcase@^6.2.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
+
+camelcase@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
+  integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
 caniuse-lite@^1.0.30001517:
   version "1.0.30001524"
@@ -3148,6 +3173,11 @@ stdin-discarder@^0.1.0:
   integrity sha512-xhV7w8S+bUwlPTb4bAOUQhv8/cSS5offJuX8GQGq32ONF0ZtDWKfkdomM3HMRA+LhX6um/FZ0COqlwsjD53LeQ==
   dependencies:
     bl "^5.0.0"
+
+storyblok-js-client@^5.14.2:
+  version "5.14.4"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-5.14.4.tgz#bfc69995bc4ca40a9bd1e5745a651b4eca591b08"
+  integrity sha512-9yY33tvfO3Cbe25h/l6K0T3IxJeOOyGl/pCwsd55woT0ZEBhIiEZoMumpRsyLjD5AedW9KXLbLjMXhHazkepCA==
 
 string-width@^4.1.0:
   version "4.2.3"
