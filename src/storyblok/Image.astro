@@ -1,0 +1,10 @@
+---
+import { storyblokEditable } from '@storyblok/astro';
+
+const { blok } = Astro.props;
+const { asset, alt, hero } = blok;
+---
+
+<div {...storyblokEditable(blok)}>
+  <img src={asset.filename} alt={alt} class=`${hero ? 'hero' : ''}` />
+</div>

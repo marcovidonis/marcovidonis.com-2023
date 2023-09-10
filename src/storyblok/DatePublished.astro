@@ -1,0 +1,10 @@
+---
+import { storyblokEditable } from '@storyblok/astro';
+
+const { blok } = Astro.props;
+const datePublished = new Date(blok.date);
+---
+
+<div {...storyblokEditable(blok)} class="prose">
+  <h4>{datePublished.toLocaleDateString('en-GB')}</h4>
+</div>
